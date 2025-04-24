@@ -4,15 +4,16 @@ function som() {
     let msg = document.getElementById('msg')
     msg.style.visibility = 'visible'
 
+    
+    let play = document.getElementById('music')
+    audio.play()
+    play.style.display = 'none'
+    
     let carousel = document.getElementById('carrossel')
     setTimeout(() => {
         carousel.style.opacity = 0.8 
     }, 1200);
-
-    let play = document.getElementById('music')
-    audio.play()
-    play.style.display = 'none'
-
+    
     let pausar = document.getElementById('pausar')
     pausar.style.display = 'block'
 
