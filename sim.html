@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HAHAHA</title>
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Bootstrap-->
+    <link href="bootstrap5/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Estilos externos-->
+    <link rel="stylesheet" href="styles/main02.css">
+    <script src="yes.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="bg-video">
+        <video id="video" autoplay muted loop>
+          <source src="src/video.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <div id="container">
+        <div id="txt">
+          <h1>
+            hehehe sabia que você ia aceitar!<span style="color: #ff0000;">&#10084;</span>
+          </h1>
+        </div>
+        <!--Carrossel-->
+        <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="img/foto2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/foto.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/foto3.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="img/foto4.jpg" class="d-block w-100">
+            </div>
+          </div>
+          <!--botoes-->
+          <!--prev-->
+          <button class="carousel-control-prev btn-carousel" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <!--Next-->
+          <button class="carousel-control-next btn-carousel" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <div id="musica">
+          <button id="music" onclick="som()">Clique aqui</button>
+          <button id="pausar" onclick="pausar()">pausar</button>
+          <p id="msg">Agora relaxa e escuta nossa música&#128536;</p>
+        </div>
+      </div>
+      <div id="voltar">
+        <button onclick="window.location.href = 'index.html'">clique aqui para voltar a tela anterior</button>
+      </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

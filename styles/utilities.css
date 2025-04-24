@@ -1,0 +1,20 @@
+/*------------------------------------------------------------------------
+Utilidades
+------------------------------------------------------------------------*/
+
+.anim-btn {
+    width: 300px !important;
+    font-weight: bolder !important;
+}
+
+.cellBtn {
+    width: 5.5em !important;
+}
+
+.resetBtn {
+    color: var(--purple);
+}
+
+.resetBtn:hover {
+    color: var(--extra-light-purple);
+}

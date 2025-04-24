@@ -1,0 +1,21 @@
+
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(90deg, var(--light-purple), var(--extra-light-purple));
+    color: var(--white);
+    background-size: 400% 400%;
+    animation: bg-anim 10s ease-in-out infinite alternate;
+}
+
+button:active {
+    background-color: var(--purple);
+    scale: 0.9;
+}

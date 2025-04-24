@@ -1,0 +1,51 @@
+/*------------------------------------------------------------------------
+Formatação dentro do container
+------------------------------------------------------------------------*/
+
+#txt {
+    background-color: var(--purple);
+    color: var(--white);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    
+}
+
+#txt h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+#img {
+    background: url(../img/foto.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 10px 10px;
+    opacity: 0.8;
+    width: 396px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+#buttons {
+    margin-top: auto;
+}
+
+#buttons button {
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    width: 8.5em;
+    height: 3.4em;
+    margin: 0 10px;
+}
+
+#btnYes:hover {
+    background-color: #0b0015;
+}
+
+#btnYes:active {
+    transform: translate(0.9);
+}
