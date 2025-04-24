@@ -59,11 +59,11 @@ button.carousel-control-next:active {
     border: none;
     border-radius: 5px;
     margin-top: 15px;
-    height: 2.5em;
-    width: 6.4em;
-    font-size: 0.8em;
+    font-size: 14px;
+    padding: 7px 15px;
     text-transform: uppercase;
 }
+
 
 #musica button:hover {
     background-color: var(--light-purple);
