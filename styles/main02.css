@@ -96,7 +96,7 @@ button.carousel-control-next:active {
 #voltar button {
     background: none;
     border: none;
-    color: var(--purple);
+    color: var(--white);
     font-weight: bolder;
     font-size: 0.8em;
     margin-bottom: 5px;
