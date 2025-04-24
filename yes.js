@@ -6,7 +6,7 @@ function som() {
 
     let carousel = document.getElementById('carrossel')
     setTimeout(() => {
-        carousel.style.opacity = 0.5 
+        carousel.style.opacity = 0.8 
     }, 1200);
 
     let play = document.getElementById('music')
